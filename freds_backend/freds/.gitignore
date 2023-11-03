@@ -1,0 +1,26 @@
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore all .pyc files
+__pycache__/
+
+# Ignore migration files
+migrations/
+
+# Ignore media and static files (adjust these paths if needed)
+media/
+static/
+
+# Ignore log files
+log/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore environment-specific settings files (e.g., settings/local.py)
+settings/local.py
+
+# Ignore user-specific files
+.secret_key
